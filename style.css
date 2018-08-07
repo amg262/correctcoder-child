@@ -1,0 +1,168 @@
+/*
+Theme Name:     CorrectCoder
+Description:    
+Author:         Andy
+Template:       optimizer
+Version:        1.0.0
+Text-Domain:    correctcoder-child
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+/************************************************************************************************ BOOYAH */
+
+/*USER'S CUSTOM CSS---------------------------------------------------------*/
+.stat_has_img .stat_content_inner {
+    min-height: 250px;
+    text-align: left;
+    top:        100px;
+    width:      50%;
+}
+
+.midrow_blocks .midrow_block:first-child:nth-last-child(7), .midrow_block:first-child:nth-last-child(7) ~ .midrow_block {
+    width: 14.25%;
+}
+
+.stat_content_inner {
+    color:       #000000 !important;
+    text-shadow: 1px 2px 22px rgba(255, 255, 255, .9) !important;
+}
+
+#topmenu ul.menu > li:hover::after {
+    background-color: rgb(70, 149, 200);
+}
+
+.page-head {
+    min-height: unset;
+}
+
+.page_head .pagetitle_wrap {
+    margin: 20px auto;
+}
+
+@media all and (max-width: 1386px) {
+    .logo img {
+        width: 200px;
+    }
+
+    .has_trans_header.home #topmenu {
+        float: unset;
+    }
+}
+
+.copytext {
+    width: 100%;
+}
+
+.pricing-row {
+    background-color: #0B4366;
+    width:            100%;
+    margin:           0;
+    padding:          0;
+    margin-bottom:    20px;
+}
+
+.pricing-detail {
+    width:          14.25%;
+    display:        inline-block;
+    vertical-align: top;
+    padding-top:    20px;
+    color:          #FFFFFF;
+}
+
+.pricing-type {
+    font-weight: bold;
+}
+
+@media all and (max-width: 760px) {
+    .pricing-detail {
+        width:          50%;
+        display:        inline-block;
+        /* min-height:200px; */
+        vertical-align: top;
+        padding-top:    20px;
+        color:          #FFFFFF;
+    }
+
+}
+
+.page_head {
+    min-height:       unset;
+    background-color: unset;
+    text-align:       unset;
+}
+
+#content {
+    margin-top: 0px;
+}
+
+.single-post {
+    padding-top: 0px;
+}
+
+.thn_post_wrap {
+    overflow: unset;
+}
+
+.slider-left {
+    width:       65%;
+    margin:      0;
+    padding:     0;
+    padding-top: 10px;
+    float:       left;
+}
+
+.slider-right {
+    width:          65%;
+    margin:         0;
+    padding:        5%;
+    padding-top:    10px;
+    padding-right:  0px;
+    padding-bottom: 5px;
+    float:          right;
+}
+
+.slider-right img {
+    float: right;
+}
+
+.slider-small {
+    width: 25%;
+}
+
+.slider-medium {
+    width: 45%;
+}
+
+.owl-carousel.owl-loaded {
+    height: auto;
+    /* max-height:700px; */
+}
+
+.thn_post_wrap .gform_wrapper {
+    font-size:   small;
+    line-height: 1.2em;
+}
+
+body .gform_wrapper ul li.gfield {
+    margin-top:  0;
+    padding-top: 0;
+}
+
+.single_post {
+    padding-top:   0;
+    padding-right: 0;
+    padding-left:  0;
+}
+
+.page.hentry {
+    padding: 2.5%;
+}
+
+.single_wrap {
+    background-color: #FFFFFF;
+}
+
+.header {
+    background: #F3F3FA;
+}
