@@ -55,7 +55,7 @@ function build_slider() {
 		foreach ( $slides as $slid ) {
 			# code...
 			$t          = '' . $slid;
-			$slide_text .= '<li>' . sanitize_text_field( $slid ) . '</li>';
+			$slide_text .= '<li>' .  $slid . '</li>';
 		}
 	}
 
